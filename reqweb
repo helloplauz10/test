@@ -1,0 +1,8 @@
+import requests
+import sys
+if sys.argv == [sys.argv[0]]:
+     print("usage: " + sys.argv[0] + " [url]")
+     exit()
+a = requests.get(sys.argv[1])
+print(a) 
+print(a.text)
