@@ -1,4 +1,6 @@
-#! /usr/bin/env python3
+#!/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/bin/python3.9
+"""pydroid 3"""
+
 import requests
 import sys
 if sys.argv == [sys.argv[0]]:
